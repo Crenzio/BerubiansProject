@@ -4,6 +4,7 @@ a {
     text-transform: uppercase;
     font-weight: bolder;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 a:link {
@@ -16,6 +17,10 @@ a:visited {
 
 a:hover {
     color: red;
+}
+
+a.top:hover {
+    color: purple;
 }
 
 a:active {
@@ -116,8 +121,7 @@ div.main {
 }
 
 div.ping {
-    max-width: 782px; 
-    min-width: 352px;
+    width: 100%;
     min-height: 150px; 
 }
 
@@ -165,6 +169,7 @@ div.subtitle-jon {
 
 div.text {
     padding: 5px;
+    padding-left: 10px;
     background-color: white;
 }
 
@@ -376,11 +381,6 @@ div.drink {
     background-color: black;
     color: white;
     border: 2px solid white;
-}
-a {
-    font-weight: bolder;
-    text-decoration: underline;
-    text-transform: uppercase;
 }
 
 .flavortext {

@@ -242,10 +242,17 @@ header {
 img.clickable {
     height: 50px;
     width: 50px;
-    float: right;
     padding: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+img.l {
+    float: left
+}
+
+img.r {
+    float: right
 }
 
 input {

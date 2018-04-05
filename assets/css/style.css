@@ -47,7 +47,6 @@ body {
     font-family: 'PT Sans Caption', sans-serif;
     min-width: 380px;
     min-height: 100vh;
-    background: url("../images/tile.png");
     background-color: gray;
 }
 

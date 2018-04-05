@@ -1,10 +1,7 @@
 a {
     font-weight: bolder;
-    text-decoration: underline;
     text-transform: uppercase;
     font-weight: bolder;
-    text-decoration: underline;
-    text-transform: uppercase;
 }
 
 a:link {
@@ -17,10 +14,6 @@ a:visited {
 
 a:hover {
     color: red;
-}
-
-a.top:hover {
-    color: purple;
 }
 
 a:active {
@@ -36,6 +29,10 @@ a.top {
     color: blue;
     text-transform: none;
     text-decoration: none;
+}
+
+a.top:hover {
+    color: purple;
 }
 
 a.none {
@@ -63,14 +60,14 @@ button {
 }
 
 div.banner {
-    border: solid 1px #000000;
     max-width: 100%; 
     min-width: 352px;
     min-height: 150px; 
     margin: 0 auto; 
-    background: url("../images/banner.png");
+    margin-bottom: -1px;
+    background: url("../images/musicalTile.png");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 div.break {
@@ -100,6 +97,14 @@ div.chain {
     width: 90%;
 }
 
+div.extra {
+    width: 100%;
+    min-height: 150px; 
+    background: url("");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
 div.gutter {
     height: 5vh;
 }
@@ -123,6 +128,9 @@ div.main {
 div.ping {
     width: 100%;
     min-height: 150px; 
+    background: url("../images/musicalBanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.pad {
@@ -145,7 +153,7 @@ div.social {
     max-width: 100%; 
     min-width: 352px;
     margin: 0 auto; 
-    margin-bottom: 95px;
+    margin-bottom: 60px;
 }
 
 div.subtitle-card {
@@ -365,6 +373,13 @@ div.drink {
 
 
 
+@media screen and (max-width: 800px) {
+    
+    div.ping {
+        background-position: right;
+    }
+
+}
 
 
 

@@ -50,14 +50,6 @@ body {
     background-color: gray;
 }
 
-button {
-    margin: 5px;
-    font-weight: bold; 
-    padding: 5px; 
-    font-size: 16px;
-    color: black;
-}
-
 #banner {
     max-width: 100%; 
     min-width: 352px;
@@ -77,15 +69,6 @@ div.break {
     margin: 0 auto;  
     margin: 10px;
     background-color: #000000;
-}
-
-div.button-jon-top {
-    text-align: center;
-    margin: 0 auto;
-    background: white;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    border: solid 1px black;
 }
 
 div.center {
@@ -134,6 +117,10 @@ div.main {
     min-height: 150px; 
 }
 
+#ping:hover {
+    cursor:pointer;
+   }
+
 div.pingMusic {
     background: url("../images/musicalBanner.png");
     background-position: center;
@@ -147,12 +134,6 @@ div.pad {
 div.post {
     border: solid 1px #000000;
     width: 90%;
-    margin: 0 auto; 
-}
-
-div.search {
-    max-width: 782px; 
-    min-width: 352px;
     margin: 0 auto; 
 }
 
@@ -285,7 +266,28 @@ img.r {
 
 
 
+button {
+    margin: 5px;
+    font-weight: bold; 
+    padding: 5px; 
+    font-size: 16px;
+    color: black;
+}
 
+div.button-jon-top {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: solid 1px black;
+}
+
+div.search {
+    max-width: 782px; 
+    min-width: 352px;
+    margin: 0 auto; 
+}
 
 input {
     background-color: #caebfe;

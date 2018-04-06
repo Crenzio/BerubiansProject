@@ -58,11 +58,14 @@ button {
     color: black;
 }
 
-div.banner {
+#banner {
     max-width: 100%; 
     min-width: 352px;
     min-height: 150px; 
     margin: 0 auto; 
+}
+
+div.bannerMusic {
     background: url("../images/musicalTile.png");
     background-position: center;
     background-repeat: repeat-x;
@@ -95,9 +98,12 @@ div.chain {
     width: 90%;
 }
 
-div.extra {
+#extra {
     width: 100%;
     min-height: 150px; 
+}
+
+div.extraMusic {
     background: url("");
     background-position: left;
     background-repeat: no-repeat;
@@ -123,9 +129,12 @@ div.main {
     margin: 0 auto; 
 }
 
-div.ping {
+#ping {
     width: 100%;
     min-height: 150px; 
+}
+
+div.pingMusic {
     background: url("../images/musicalBanner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -255,6 +264,29 @@ img.r {
     float: right
 }
 
+@media screen and (max-width: 800px) {
+    
+    div.pingMusic {
+        background-position: right;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
     background-color: #caebfe;
     color:#000000;
@@ -365,37 +397,6 @@ div.drink {
     background-position: center;
     background-repeat: no-repeat; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 800px) {
-    
-    div.ping {
-        background-position: right;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 .drinkContainer {
     background-color: black;

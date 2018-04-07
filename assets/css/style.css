@@ -63,6 +63,12 @@ div.bannerMusic {
     background-repeat: repeat-x;
 }
 
+div.bannerAction {
+    background: url("../images/actionTile.png");
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
 div.break {
     width: 90%; 
     height: 5px;
@@ -123,6 +129,12 @@ div.main {
 
 div.pingMusic {
     background: url("../images/musicalBanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.pingAction {
+    background: url("../images/actionBanner.png");
     background-position: center;
     background-repeat: no-repeat;
 }

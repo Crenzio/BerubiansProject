@@ -99,7 +99,7 @@ div.extraMusic {
 }
 
 div.gutter {
-    height: 159px;
+    height: 5vh;
 }
 
 div.links {
@@ -116,6 +116,7 @@ div.main {
     max-width: 800px; 
     min-width: 380px;
     margin: 0 auto; 
+    padding-bottom: 100px;
 }
 
 #ping {

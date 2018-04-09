@@ -163,6 +163,11 @@ div.post {
     margin: 0 auto; 
 }
 
+div.resp {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 div.set {
     margin-bottom: -3px;
 }

@@ -166,6 +166,11 @@ div.post {
     margin: 0 auto; 
 }
 
+div.resp {
+    margin-top: 1px;
+    border: solid 1px black;
+}
+
 div.set {
     margin-bottom: -3px;
 }

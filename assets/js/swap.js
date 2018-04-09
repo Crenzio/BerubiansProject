@@ -10,7 +10,7 @@ $(document).ready(function () {
         //      PING resets the function ON.CLICK (hence the name PING) 
 
         //  generate a number between 0 and 9 each time SWITCHBOARD is called
-        let switchboard = Math.floor(Math.random() * 9);
+        let switchboard = Math.floor(Math.random() * 8);
         console.log(switchboard);
 
         //  prevent overlap by removing existing CSS
@@ -60,13 +60,7 @@ $(document).ready(function () {
             $("#ping").addClass("pingFantasy");
             $("#extra").addClass("extraFantasy");
         }
-        //  swithboard = 7 | action
-        if (switchboard == 7) {
-            $("#banner").addClass("bannerAction");
-            $("#ping").addClass("pingAction");
-            $("#extra").addClass("extraAction");
-        }
-        //  swithboard = 8 | standup
+        //  swithboard = 7 | standup
         if (switchboard == 8) {
             $("#banner").addClass("bannerStandup");
             $("#ping").addClass("pingStandup");

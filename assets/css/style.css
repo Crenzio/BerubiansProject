@@ -1,3 +1,8 @@
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; }
+
 a {
     font-weight: bolder;
     text-transform: uppercase;
@@ -69,6 +74,10 @@ div.bannerAction {
     background-repeat: repeat-x;
 }
 
+div.bannerScifi {
+    background-color: black;
+}
+
 div.break {
     width: 90%; 
     height: 5px;
@@ -125,8 +134,8 @@ div.main {
 
 #ping:hover {
     cursor:pointer;
-   }
-
+}
+   
 div.pingMusic {
     background: url("../images/musicalBanner.png");
     background-position: center;
@@ -135,6 +144,12 @@ div.pingMusic {
 
 div.pingAction {
     background: url("../images/actionBanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.pingScifi {
+    background: url("../images/scifiBanner.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -149,11 +164,17 @@ div.post {
     margin: 0 auto; 
 }
 
-div.social {
+#social {
     max-width: 100%; 
     min-width: 352px;
     margin: 0 auto; 
     margin-bottom: 60px;
+}
+
+div.social {
+    background: url("../images/arrow.png");
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 div.subtitle-card {
@@ -260,6 +281,10 @@ img.r {
 @media screen and (max-width: 800px) {
     
     div.pingMusic {
+        background-position: right;
+    }
+
+    div.pingScifi {
         background-position: right;
     }
 

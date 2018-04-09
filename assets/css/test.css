@@ -138,3 +138,56 @@ span.post {
     padding: 5px; 
 }
 
+
+@media screen and (max-width: 320px) {
+    
+    div {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    body {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #banner {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #ping {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #extra {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #social {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    img.r {
+        float: left;
+    }
+
+    div.main {
+        margin: 0;
+        max-width: 75%;
+        min-width: 75%;
+    }
+
+    div.gutter {
+        height: 150px;
+    }
+
+    div.resp {
+        max-width: 75%;
+        min-width: 75%;
+    }
+
+}

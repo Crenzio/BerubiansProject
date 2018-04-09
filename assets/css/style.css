@@ -155,17 +155,15 @@ div.pingScifi {
 
 div.pad {
     padding: 5px;
+    max-width: 400px;
+    min-width: 380px;
+    margin: 0 auto;
 }
 
 div.post {
     border: solid 1px #000000;
     width: 90%;
     margin: 0 auto; 
-}
-
-div.resp {
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 div.set {
@@ -373,11 +371,16 @@ span.links {
     padding: 10px;
     margin-top: 1px;
     margin-bottom: 1px;
-    border: solid 2px black;
 }
 
 span.left {
-    margin-right: 10px;
+    float: left;
+    padding-left: 20px;
+}
+
+span.right {
+    float: right;
+    padding-right: 20px;
 }
 
 span.post {

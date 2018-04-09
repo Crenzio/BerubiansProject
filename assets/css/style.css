@@ -6,7 +6,6 @@
 a {
     font-weight: bolder;
     text-transform: uppercase;
-    font-weight: bolder;
 }
 
 a:link {
@@ -162,6 +161,10 @@ div.post {
     border: solid 1px #000000;
     width: 90%;
     margin: 0 auto; 
+}
+
+div.set {
+    margin-bottom: -3px;
 }
 
 #social {
@@ -363,6 +366,9 @@ select {
 span.links {
     display: inline-block;
     padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: solid 2px black;
 }
 
 span.left {

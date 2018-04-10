@@ -74,7 +74,9 @@ div.bannerAction {
 }
 
 div.bannerScifi {
-    background-color: black;
+    background: url("../images/scifiTile3.png");
+    background-position: left;
+    background-repeat: repeat-x;
 }
 
 div.break {
@@ -148,7 +150,7 @@ div.pingAction {
 }
 
 div.pingScifi {
-    background: url("../images/scifiBanner.png");
+    background: url("../images/scifiBanner3.png");
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -20,6 +20,10 @@ module.exports = function (app) {
         res.render("contact");
     });
 
+    app.get("/support", function (req, res) {
+        res.render("support");
+    });
+
     app.get("/mail", function (req, res) {
         res.render("mail");
     });

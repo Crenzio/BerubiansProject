@@ -162,10 +162,45 @@ div.pad {
     margin: 0 auto;
 }
 
+button.patreon {
+    background: url("../images/patreon.png");
+    background-size: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 281px;
+    color: white;
+    background-color:  #e6461a;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding-left: 36px;
+}
+
 div.post {
     border: solid 1px #000000;
     width: 90%;
     margin: 0 auto; 
+}
+
+div.prize {
+    display: table-cell;
+    padding: 5px;
+}
+
+div.prizeBox {
+    padding-right: 6px;
+    font-weight: bolder;
+}
+
+div.prizeBlue {
+    background-color: white;
+    border: solid 2px black;
+    border-right: 0;
+}
+
+div.prizeGreen {
+    background-color: white;
+    border: solid 2px black;
 }
 
 div.resp {

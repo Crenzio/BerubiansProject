@@ -1,0 +1,25 @@
+{
+  "name": "berubiansproject",
+  "version": "1.0.0",
+  "description": "Web App for the Berubians",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crenzio/BerubiansProject.git"
+  },
+  "author": "Jonathan R Gilbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crenzio/BerubiansProject/issues"
+  },
+  "homepage": "https://github.com/Crenzio/BerubiansProject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}

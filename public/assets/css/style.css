@@ -97,6 +97,10 @@ div.chain {
     width: 90%;
 }
 
+div.line {
+    display: inline-block;
+}
+
 #extra {
     width: 100%;
     min-height: 150px; 
@@ -108,8 +112,36 @@ div.extraMusic {
     background-repeat: no-repeat;
 }
 
+div.github {
+    height: 50px;
+    width: 50px;
+    background: url("../images/facebook.png");
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
 div.gutter {
     height: 50px;
+}
+
+div.linkedin {
+    height: 50px;
+    width: 50px;
+    background: url("../images/facebook.png");
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 div.links {
@@ -206,6 +238,7 @@ div.prizeGreen {
 div.resp {
     margin-top: 1px;
     border: solid 1px black;
+    min-width:380px;
 }
 
 div.set {
@@ -296,6 +329,31 @@ h3.text {
     padding-top: 5px;
 }
 
+h3.facebook {
+    background: url("../images/facebook.png");
+    background-size: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #3a559f; 
+}
+
+h3.instagram {
+    background: url("../images/instagramSmall.png");
+    background-size: 50px;
+    background-position: left;
+    background-position-x: -8px;
+    background-repeat: no-repeat;
+    background-color: #c8289e; 
+}
+
+h3.meetup {
+    background: url("../images/meetup.png");
+    background-size: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #e43534; 
+}
+
 h5.text {
     width: 100%; 
     background-color: black;
@@ -304,6 +362,13 @@ h5.text {
     padding-bottom: 5px;
     padding-top: 5px;
     margin-bottom: 5px;
+}
+
+h5.zero {
+    width: 100%; 
+    background-color: black;
+    color: white;
+    margin: 0;
 }
 
 header {
@@ -324,6 +389,11 @@ img.l {
 
 img.r {
     float: right
+}
+
+ul {
+    padding-left: 10px;
+    list-style-type: disc;
 }
 
 @media screen and (max-width: 800px) {
@@ -372,6 +442,17 @@ div.search {
     max-width: 782px; 
     min-width: 352px;
     margin: 0 auto; 
+}
+
+div.sliver {
+    margin: 5px;
+    margin-top: 0;
+    text-align: left;
+    height: 100px;
+}
+
+div.flex {
+    display: flex;
 }
 
 input {

@@ -115,7 +115,7 @@ div.extraMusic {
 div.github {
     height: 50px;
     width: 50px;
-    background: url("../images/facebook.png");
+    background: url("../images/github.png");
     background-size: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ div.gutter {
 div.linkedin {
     height: 50px;
     width: 50px;
-    background: url("../images/facebook.png");
+    background: url("../images/linkedin.png");
     background-size: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -595,10 +595,6 @@ div.drink {
     padding-top: 32px;
     padding-left: 20px;
     padding-bottom: 10px
-}
-
-img {
-    float: left;
 }
 
 .card-footer {

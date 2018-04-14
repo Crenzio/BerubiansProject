@@ -160,6 +160,30 @@ div.main {
     margin: 0 auto; 
 }
 
+div.noteNext {
+    background: url("../images/nextStage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+div.noteTres {
+    background: url("../images/tresStage.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+div.noteSmall {
+    float: right;
+    background-color: white;
+    color: black;
+}
+
+div.nudge {
+    margin-right: 6px;
+}
+
 #ping {
     width: 100%;
     min-height: 150px; 
@@ -214,6 +238,18 @@ div.post {
     margin: 0 auto; 
 }
 
+div.poster {
+    background-color: black;
+    color: white;
+}
+
+div.posterText {
+    padding: 5px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+}
+
 div.prize {
     display: table-cell;
     padding: 5px;
@@ -239,6 +275,17 @@ div.resp {
     margin-top: 1px;
     border: solid 1px black;
     min-width:380px;
+}
+
+div.rose {
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor:pointer;
+    color: pink;
+}
+
+div.rose:hover {
+    color: red;
 }
 
 div.set {
@@ -453,6 +500,11 @@ div.sliver {
 
 div.flex {
     display: flex;
+}
+
+div.floor {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 input {

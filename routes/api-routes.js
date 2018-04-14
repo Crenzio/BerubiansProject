@@ -20,6 +20,10 @@ module.exports = function (app) {
         res.render("contact");
     });
 
+    app.get("/rent", function (req, res) {
+        res.render("rent");
+    });
+
     app.get("/support", function (req, res) {
         res.render("support");
     });

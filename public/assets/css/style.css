@@ -292,11 +292,32 @@ div.set {
     margin-bottom: -3px;
 }
 
+#audience {
+    background-color: white;
+}
+
+#etc {
+    background-color: white;
+}
+
+#pic {
+    background-color: white;
+}
+
+#sfx {
+    background-color: white;
+}
+
 #social {
     max-width: 100%; 
     min-width: 352px;
     margin: 0 auto; 
     margin-bottom: 60px;
+}
+
+#stage {
+    padding-top: 10px;
+    background-color: white;
 }
 
 div.social {
@@ -439,7 +460,7 @@ img.r {
 }
 
 ul {
-    padding-left: 10px;
+    padding-left: 20px;
     list-style-type: disc;
 }
 

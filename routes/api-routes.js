@@ -24,6 +24,10 @@ module.exports = function (app) {
         res.render("rent");
     });
 
+    app.get("/tres", function (req, res) {
+        res.render("tres");
+    });
+
     app.get("/support", function (req, res) {
         res.render("support");
     });

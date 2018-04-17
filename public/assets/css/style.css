@@ -240,6 +240,8 @@ div.post {
 div.poster {
     background-color: black;
     color: white;
+    width: 50%;
+    margin: 0 auto;
 }
 
 div.posterText {
@@ -567,6 +569,12 @@ select {
     border: solid 1px black;
 }
 
+span.clicked {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+}
+
 span.links {
     display: inline-block;
     padding: 10px;
@@ -586,6 +594,14 @@ span.right {
 
 span.post {
     padding: 5px; 
+}
+
+span.textLeft {
+    text-align: left;
+}
+
+span.textRight {
+    text-align: right;
 }
 
 .foodImg {

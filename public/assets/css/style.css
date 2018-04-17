@@ -57,8 +57,9 @@ body {
 #banner {
     max-width: 100%; 
     min-width: 352px;
-    min-height: 150px; 
     margin: 0 auto; 
+    margin-top: -3px;
+    margin-bottom: -3px;
 }
 
 div.bannerMusic {
@@ -103,7 +104,6 @@ div.line {
 
 #extra {
     width: 100%;
-    min-height: 150px; 
 }
 
 div.extraMusic {
@@ -186,7 +186,6 @@ div.nudge {
 
 #ping {
     width: 100%;
-    min-height: 150px; 
 }
 
 #ping:hover {
@@ -457,6 +456,12 @@ img.l {
 
 img.r {
     float: right
+}
+
+img.stopgap {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 ul {

@@ -113,7 +113,7 @@ div.line {
 }
 
 div.extraComedy {
-    background: url("../images/comedyBanner.png");
+    background: url("");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -217,7 +217,7 @@ div.pingScifi {
 }
 
 div.pingComedy {
-    background: url("../images/comedyWall2.png");
+    background: url("../images/comedyBanner.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -493,6 +493,11 @@ ul {
         background-position: right;
     }
 
+    div.pingComedy {
+        background: url("../images/comedyBanner2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 

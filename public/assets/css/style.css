@@ -493,16 +493,27 @@ ul {
         background-position: right;
     }
 
-    div.pingComedy {
-        background: url("../images/comedyBanner2.png");
+}
+
+@media screen and (max-width: 750px) {
+
+div.pingComedy {
+        background: url("../images/comedyBanner3.png");
         background-repeat: no-repeat;
         background-position: center;
     }
+
 }
 
+@media screen and (max-width: 450px) {
 
-
-
+    div.pingComedy {
+            background: url("../images/comedyBanner2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    
+    }
 
 
 

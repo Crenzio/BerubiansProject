@@ -80,6 +80,12 @@ div.bannerScifi {
     background-repeat: repeat-x;
 }
 
+div.bannerComedy {
+    background: url("../images/comedyWall.png");
+    background-position: center;
+    background-repeat: repeat;
+}
+
 div.break {
     width: 90%; 
     height: 5px;
@@ -106,9 +112,9 @@ div.line {
     width: 100%;
 }
 
-div.extraMusic {
-    background: url("");
-    background-position: left;
+div.extraComedy {
+    background: url("../images/comedyBanner.png");
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -206,6 +212,12 @@ div.pingAction {
 
 div.pingScifi {
     background: url("../images/scifiBanner3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.pingComedy {
+    background: url("../images/comedyWall2.png");
     background-position: center;
     background-repeat: no-repeat;
 }

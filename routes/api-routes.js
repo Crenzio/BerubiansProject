@@ -40,4 +40,9 @@ module.exports = function (app) {
         res.render("social");
     });
 
+    app.get("/terms", function (req, res) {
+        res.render("terms");
+    });
+
+
 };

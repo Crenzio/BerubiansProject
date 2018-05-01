@@ -10,8 +10,7 @@ $(document).ready(function () {
         //      PING resets the function ON.CLICK (hence the name PING) 
 
         //  generate a number between 0 and 9 each time SWITCHBOARD is called
-        let switchboard = Math.floor(Math.random() * 7);
-        console.log(switchboard);
+        let switchboard = Math.floor(Math.random() * 5);
 
         //  prevent overlap by removing existing CSS
         $("#banner").removeClass();
@@ -24,38 +23,26 @@ $(document).ready(function () {
             $("#ping").addClass("pingMusic");
             $("#extra").addClass("extraMusic");
         }
-        //  swithboard = 1 | drama
+        //  swithboard = 1 | comedy
         if (switchboard == 1) {
-            $("#banner").addClass("bannerDrama");
-            $("#ping").addClass("pingDrama");
-            $("#extra").addClass("extraDrama");
-        }
-        //  swithboard = 2 | comedy
-        if (switchboard == 2) {
             $("#banner").addClass("bannerComedy");
             $("#ping").addClass("pingComedy");
             $("#extra").addClass("extraComedy");
         }
-        //  swithboard = 3 | horror
-        if (switchboard == 3) {
-            $("#banner").addClass("bannerHorror");
-            $("#ping").addClass("pingHorror");
-            $("#extra").addClass("extraHorror");
-        }
-        //  swithboard = 4 | action
-        if (switchboard == 4) {
+        //  swithboard = 2 | action
+        if (switchboard == 2) {
             $("#banner").addClass("bannerAction");
             $("#ping").addClass("pingAction");
             $("#extra").addClass("extraAction");
         }
-        //  swithboard = 5 | scifi
-        if (switchboard == 5) {
+        //  swithboard = 3 | scifi
+        if (switchboard == 3) {
             $("#banner").addClass("bannerScifi");
             $("#ping").addClass("pingScifi");
             $("#extra").addClass("extraScifi");
         }
-        //  swithboard = 6 | fantasy
-        if (switchboard == 6) {
+        //  swithboard = 4 | fantasy
+        if (switchboard == 4) {
             $("#banner").addClass("bannerFantasy");
             $("#ping").addClass("pingFantasy");
             $("#extra").addClass("extraFantasy");

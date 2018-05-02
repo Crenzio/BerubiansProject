@@ -1,3 +1,6 @@
+var favicon = require('serve-favicon');
+var path = require("path"); 
+
 var express = require("express");
 var bodyParser = require("body-parser");
 
@@ -16,6 +19,8 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 require("./routes/api-routes.js")(app);
+
+app.use(favicon(path.join(__dirname,'public', 'assets','images','logo.png')));
 
 app.listen(PORT, function () {
     console.log("Listening on port: ", PORT);

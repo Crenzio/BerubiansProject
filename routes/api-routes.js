@@ -8,12 +8,16 @@ module.exports = function (app) {
         res.render("shows");
     });
 
+    app.get("/treShows", function (req, res) {
+        res.render("treShows");
+    });
+
     app.get("/classes", function (req, res) {
         res.render("classes");
     });
 
-    app.get("/auditions", function (req, res) {
-        res.render("auditions");
+    app.get("/events", function (req, res) {
+        res.render("events");
     });
 
     app.get("/contact", function (req, res) {
@@ -32,10 +36,6 @@ module.exports = function (app) {
         res.render("support");
     });
 
-    app.get("/mail", function (req, res) {
-        res.render("mail");
-    });
-
     app.get("/social", function (req, res) {
         res.render("social");
     });
@@ -44,5 +44,12 @@ module.exports = function (app) {
         res.render("terms");
     });
 
+    app.get("/patreon", function (req, res) {
+        res.render("patreon");
+    });
+
+    app.get("/meetup", function (req, res) {
+        res.render("meetup");
+    });
 
 };

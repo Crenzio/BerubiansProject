@@ -429,6 +429,14 @@ h3.facebook {
     background-color: #3a559f; 
 }
 
+h3.twitter {
+    background: url("../images/twitter.png");
+    background-size: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #55acee; 
+}
+
 h3.instagram {
     background: url("../images/instagramSmall.png");
     background-size: 50px;
@@ -444,6 +452,14 @@ h3.meetup {
     background-position: left;
     background-repeat: no-repeat;
     background-color: #e43534; 
+}
+
+h3.patreon {
+    background: url("../images/patreon.png");
+    background-size: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #ff5900; 
 }
 
 h5.text {
